@@ -5,7 +5,7 @@ import pandas as pd
 from surprise import SVD, Dataset, Reader
 
 # Load the data for user similarity-based recommendations
-with open('recommendation_data.pkl', 'rb') as file:
+with open('66130701711_recommendation_movie_svd.pkl', 'rb') as file:
     user_similarity_df, user_movie_ratings = pickle.load(file)
 
 # Load the data for SVD-based recommendations
