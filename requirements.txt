@@ -1,0 +1,6 @@
+
+scikit-learn
+scikit-surprise
+pandas
+numpy == 1.26.4
+ 
